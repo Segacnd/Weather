@@ -81,14 +81,14 @@ button:hover
     text-transform: capitalize;
     margin-left: 8px;
 }
-.weather.loading 
+.loading 
 {
     visibility: hidden;
     max-height: 20px;
     position: relative;
 }
   
-.weather.loading:after 
+.loading:after 
 {
     visibility: visible;
     content: "Loading...";
