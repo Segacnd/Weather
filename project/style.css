@@ -81,19 +81,3 @@ button:hover
     text-transform: capitalize;
     margin-left: 8px;
 }
-.loading 
-{
-    visibility: hidden;
-    max-height: 20px;
-    position: relative;
-}
-  
-.loading:after 
-{
-    visibility: visible;
-    content: "Loading...";
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 20px;
-}
