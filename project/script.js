@@ -40,7 +40,7 @@ const weather = {
 
 document.querySelector('.search button').addEventListener('click', function () {
     weather.search();
-    clearValue();
+    clearValue(); 
 });
 
 document.querySelector('.search-bar').addEventListener('keyup', function (e) {
